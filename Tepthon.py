@@ -31,7 +31,7 @@ from telethon.tl.functions.messages import GetHistoryRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 import requests
 # -
-# - SYTHOM TEAM 
+# - xXStrem TEAM 
 # -
 
 Tepthon1.start()
@@ -54,14 +54,14 @@ DEVS = [5413631898]
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@Tepthon"))
+        await Tepthon1(JoinChannelRequest("@xXStrem"))
     except BaseException:
         pass
         
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@xXStrem"))
+        await Tepthon1(JoinChannelRequest("@xXStrem_Help"))
     except BaseException:
         pass
       
@@ -79,14 +79,14 @@ async def join_channel(event):
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhmd_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**كلشي تمام حبي**')
         
         
 @Tepthon1.on(events.NewMessage(outgoing=False, pattern='/TEST'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhmd_id :
-        order = await event.reply('**the source is running ⚡️**')
+        order = await event.reply('**كلشي تمام حبي**')
 
 
 @Tepthon1.on(events.NewMessage(outgoing=False, pattern='.الاوامر'))
@@ -262,8 +262,6 @@ async def _(event):
 ╭── 𝖲َِ𝗈َِ𝗎َِ𝗋َِcَِ𝖾 َِxَِ𝖷َِ𝖲َِ𝗍َِ𝗋َِ𝖾َِ𝗆 ──╮
 
 ※  َِCَِ𝗁َِ𝖺َِ𝗇َِ𝗇َِ𝖾َٓl¹  -  @xXStrem ※
-
-※  Cَِ𝗁َِ𝖺َِ𝗇َِ𝗇َِ𝖾َٓl²  -  @Tepthon ※
 
 ※  َِ𝖵َِ𝖾َِ𝗋َِ𝗌َِ𝗂َِ𝗈َِ𝗇  - 1.1 - 𝖱َِ𝖾َِvَِ𝗂َِ𝗌َِ𝖾َِ𝖽   ※
 
